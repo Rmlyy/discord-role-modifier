@@ -1,0 +1,20 @@
+{
+  "name": "role-bot",
+  "version": "1.0.0",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/deploy-commands.js && node src/bot.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "Rmly",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "utf-8-validate": "^6.0.4",
+    "zlib-sync": "^0.1.9"
+  }
+}
